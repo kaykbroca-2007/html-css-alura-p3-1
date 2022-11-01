@@ -1,51 +1,117 @@
-
-.titulo-principal {
-    padding-left: 20px;
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.titulo-centralizado {
-    text-align: center
+header{
+  background: #bbbbbb;
+  padding: 20px 0;
 }
 
-.principal {
-    background: #CCCCCC;
-    padding: 30px;
+.caixa{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
 }
 
-#banner {
-    width:100%;
+nav{
+  position: absolute;
+  top: 110px;
+  right: 0;
+
+}
+
+nav li{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a{
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #c78c19;
+  text-decoration: underline;
 }
 
 
-p {
-    text-align: center;
+.principal{
+  background: #cccccc;
+  padding: 30px;
 }
 
-#missao {
-    font-size: 21px;
+.titulo-principal{
+  padding-left: 20px;
 }
 
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px;
+
+p{
+  text-align: center;
+  
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+#missao{
+  font-size: 20px;
 }
 
-.itens {
-    font-style: italic;
+em strong{
+  color: #c78c19;;
 }
 
-.imagem-beneficios {
-    width: 40%;
+#banner{
+  width: 100%;
 }
 
-em strong {
-    color: #FF0000;
+.itens{
+  font-style: italic;
 }
-Footer
+
+.beneficios{
+  background: #ffffff;
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+  
+}
+
+.beneficios li{
+  font-size: 20px;  
+  width: 30%;
+  vertical-align: top;  
+  margin: 0 1.5%;
+  padding: 5px;
+  
+}
+
+.titulo-centralizado{
+  text-align: center;
+}
+
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width:  20%;
+  margin-right: 15% ;
+}
+
+.imagem-beneficios{
+  width: 50%;
+}
+
+footer{
+  text-align: center;
+  background: url("bg.jpg");
+  padding: 40px 0px;
+  
+}
+
+.copyright{
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 0 0 ;
+  /*unicode*/
+}
