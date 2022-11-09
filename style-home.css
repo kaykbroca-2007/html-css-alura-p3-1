@@ -1,117 +1,48 @@
-body{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#banner {
+	width:100%;
 }
-
-header{
-  background: #bbbbbb;
-  padding: 20px 0;
-}
-
-.caixa{
-  position: relative;
-  width: 940px;
-  margin: 0 auto;
-}
-
-nav{
-  position: absolute;
-  top: 110px;
-  right: 0;
-
-}
-
-nav li{
-  display: inline;
-  margin: 0 0 0 15px;
-}
-
-nav a{
-  text-transform: uppercase;
-  color: #000000;
-  font-weight: bold;
-  font-size: 22px;
-  text-decoration: none;
-}
-
-nav a:hover{
-  color: #c78c19;
-  text-decoration: underline;
-}
-
 
 .principal{
-  background: #cccccc;
-  padding: 30px;
+	background: #CCCCCC;
+	padding: 30px;
 }
 
-.titulo-principal{
-  padding-left: 20px;
+.titulo-principal {
+	padding-left: 20px;
 }
 
-
-p{
-  text-align: center;
-  
+.titulo-centralizado {
+	text-align: center
 }
 
-#missao{
-  font-size: 20px;
+p {
+	text-align: center;
 }
 
-em strong{
-  color: #c78c19;;
+#missao {
+	font-size: 20px
 }
 
-#banner{
-  width: 100%;
+em strong {
+	color: #FF0000;
 }
 
-.itens{
-  font-style: italic;
+.itens {
+	font-style: italic
 }
 
-.beneficios{
-  background: #ffffff;
-  width: 940px;
-  margin: 0 auto;
-  padding: 50px 0;
-  
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
 }
 
-.beneficios li{
-  font-size: 20px;  
-  width: 30%;
-  vertical-align: top;  
-  margin: 0 1.5%;
-  padding: 5px;
-  
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
 }
 
-.titulo-centralizado{
-  text-align: center;
-}
-
-ul{
-  display: inline-block;
-  vertical-align: top;
-  width:  20%;
-  margin-right: 15% ;
-}
-
-.imagem-beneficios{
-  width: 50%;
-}
-
-footer{
-  text-align: center;
-  background: url("bg.jpg");
-  padding: 40px 0px;
-  
-}
-
-.copyright{
-  color: #ffffff;
-  font-size: 13px;
-  margin: 20px 0 0 ;
-  /*unicode*/
+.imagembeneficios {
+	width: 50%;
 }
